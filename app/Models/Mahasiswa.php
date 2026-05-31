@@ -11,6 +11,11 @@ class Mahasiswa extends Model
 
     protected $table = 'mahasiswa';
 
+    // karena primary key menggunakan npm
+    protected $primaryKey = 'npm';
+    public $incrementing = false;
+    protected $keyType = 'string';
+
     protected $fillable = [
         'npm',
         'nidn',
