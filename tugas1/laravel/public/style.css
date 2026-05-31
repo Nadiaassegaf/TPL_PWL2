@@ -1,0 +1,27 @@
+body{
+    font-family: Arial;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background: #333;
+    padding: 15px 30px;
+    color: white;
+}
+
+.menu a{
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: yellow;
+}
+
+.content{
+    padding: 30px
+}
